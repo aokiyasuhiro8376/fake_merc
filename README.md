@@ -10,6 +10,46 @@
 # ER図
 ![ER](/materials/ER.png)
 
+# アプリケーション
+#### チーム開発でコピーフリーマーケットサイトを作成
+https://fakemerc.fit/
+### basic認証のID
+- 61_mercari_wd
+### パスワード
+- 61wd
+
+## テスト用アカウント等
+
+### 購入者用
+- メールアドレス: test@test.test
+- パスワード: test0120
+
+## 購入用カード情報
+- 番号：4242424242424242
+- 期限：04/20
+- セキュリティコード：123
+## 出品者用
+- ゲストログインをお使い下さい。
+
+# アプリケーション内で使用している技術
+|種別|名称|
+|------|----|
+|開発言語	|Ruby(ver 2.5.1)|
+|フレームワーク|Ruby on Rails(ver 5.2.4)|
+|マークアップ|HTML(Haml),CSS(Sass)|
+|フロントエンド|JavaScript(jQuery)|
+|DB|MySQL2|
+|本番環境|AWS|EC2|
+|画像アップロード|carrierwave, AWS S3|
+|ロボット判定機能|reCAPTCHA|
+|自動デプロイ|capistrano|
+|ユーザー管理|devise|
+|SNS認証|OmniAuth|
+|クレジットカード管理|PayJP|
+|パンくず表示機能|breadcrumbs_on_rails|
+|データ整理|active_hash|
+|カテゴリ分類|ancestry|
+
 # DB設計
 ## Usersテーブル
 |Column|Type|Options|
