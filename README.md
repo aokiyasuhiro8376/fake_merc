@@ -4,14 +4,16 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/TAKUYA-KUSAKABE/fake_merc)
 
 
-# Fake Mercari
+# fakemerc
 ![fake](/materials/topPage.png)
 
 # ER図
 ![ER](/materials/ER.png)
 
 # アプリケーション
-#### チーム開発でコピーフリーマーケットサイトを作成
+#### チーム開発でフリーマーケットアプリを作成
+ユーザー登録、商品出品、商品購入等
+実際のフリーマーケットアプリの仕様に近付けるよう実装しました。
 https://fakemerc.fit/
 ### basic認証のID
 - 61_mercari_wd
